@@ -44,7 +44,11 @@ span
 {
 	background-color:#000000;
 }
-table td
+table
 {
-	text-align:;
+/*	border-collapse: collapse;*/
+}
+table, th, td
+{
+	border: 1px solid black;
 }
