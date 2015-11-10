@@ -1,43 +1,67 @@
-<!-- Html template -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="basic.css">
-	<title>
-		Integrated M.Sc 2k14
-	</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="basic.css">
 </head>
 <body>
-	<div id="header">
-		<h1> <b> &nbsp;I.MSc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2K14 </b> </h1>
-	<!--	<img src="bitmesra.jpg" alt="BIT Logo" style="float:left;" height="50" width="52">-->
-	</div>
-		<ul id="ulnav">
-			<li><a href="index.html"><h2>Home</h2> </a></li>
-			<li><a href="events.html"> <h2>Events</h2> </a> </li>
-			<li><a href="resources.html"> <h2>Resources</h2> </a> </li>
-			<li><a href="ideas.html"> <h2>Ideas </h2></a> </li>
-		</ul>
-    <table style="width:100%;">
-    	<tr>
-    		<th><h2> Study Materials </h2> </th>
-    		<th ><h2> Previous Question Papers </h2></th>
-    
-    	<tr>
-    		<td><b> Class Notes </b> </td>
-    		<td ><b><a href="mo2014_papers.html">Semester 1 [Monsoon 2014]</b></a> </td>
-    
-    	</tr>
-    	<tr>
-    		<td> <b> Textbooks/Other Notes </b> </td>
-    		<td > <b><a href="sp2014_papers.html">Semester 2 [Spring 2015]</a> </b> </td>
-    
-    	</tr>
-    	<tr>
-    		<td> <b> Articles and References </b> </td>
-    		<td> <b><a href="mo2015_papers.html"> Semester 3 [Monsoon 2015] </b> </a></td>
-    	
-    	</tr>
-    </table>
-</body>
-</html>
+    <div class="container-fluid">
+        <h1 class="bg-primary"> Integrated M.Sc 2k14 </h1>
+        <nav class="nav navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand hoverli" href="http://bitmesra.ac.in">BIT Mesra</a>
+                <!--<a class="pull-left" href="http://bitmesra.ac.in"><img src="bitmesra.jpg" width="50px" height="50px"></a>-->
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="hoverli"><a href="marks.html">Marks</a></li>        
+                <li class="hoverli"><a href="resources.html">Resources</a></li>
+                <li class="hoverli"><a href="events.html">Events</a></li>
+            </ul>
+            <ul class= "nav navbar-nav navbar-right">
+                <li class= "hoverli"> <a href="about_us.html">About Us&nbsp;&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active hoverli"><a href="student_notes.html">Student Notes</a></li>
+                    <li class="hoverli"><a href="#"><b>Question Papers</b></a></li>
+                    <li class="hoverli"><a href="qpaper_2k14.html">2k14 POV</a>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-md-10">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><h4>Semester 1 [Monsoon 2014]</h4> </th>
+                                <th><h4>Semester 2 [Spring 2015]</h4> </th>
+                                <th><h4>Semester 3 [Monsoon 2015] </h4></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="imp1001_2k14qpaper.html"><b>Physics 1 (IMP-1001) </b></a></td>
+                                <td><a href="imp2001_2k14qpaper.html"><b>Physics 2 (IMP-2001) </b></a></td>
+                                <td><a href="imp3001_2k14qpaper.html"><b>Physics 3 (IMP-3001) </b></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="imc1001_2k14qpaper.html"><b>Chemistry 1 (IMC-1001)</b> </a></td>
+                                <td><a href="imc2001_2k14qpaper.html"><b>Chemistry 2 (IMC-2001)</b> </a></td>
+                                <td><a href="imc3001_2k14qpaper.html"><b>Chemistry 3 (IMC-3001) </b></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="imm1001_2k14qpaper.html"><b>Mathematics 1 (IMM-1001)</b> </a></td>
+                                <td><a href="imm2001_2k14qpaper.html"><b>Mathematics 2 (IMM-2001)</b></a></td>
+                                <td><a href="imm3001_2k14qpaper.html"><b>Mathematics 3 (IMM-3001)</b> </a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

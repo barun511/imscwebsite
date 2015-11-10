@@ -1,0 +1,28 @@
+## Naming Conventions
+
+Note: The whole idea behind this file is that you can write out the links in the HTML files as you go and as you follow the naming conventions the images will just automatically slot in.
+
+Remember to use naming conventions also in the HTML files...obviously. 
+
+This makes implementing the whole shebang a lot easier.
+
+#Marks
+
+Quiz 1/2/3:
+
+subjcode_quizXmarkspageY.jpg
+
+Where for quiz 1, x=1 and y =1  or 2.
+
+There usually is always two pages.
+
+Mid Semesters:
+
+subjcode_midsemmarkspageY.jpg
+
+
+#Question Papers:
+
+For 2k14 pov
+
+subjcode_2k14qpaper.html
