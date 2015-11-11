@@ -33,16 +33,16 @@ body
 }
 .nav-sidebar >li > a:hover
 {
-	background-color:#adadad; /* Change this to change the color of the hover over*/
+	background-color:#cdcdcd; /* Change this to change the color of the hover over*/
 
 }
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
 	color:black; /* Change this to change color of text in active sidebar element */
-	background-color: #adadad; /* Change this to change the color of the highlighted background*/
+	background-color: #cdcdcd; /* Change this to change the color of the highlighted background*/
 }
-.td
+td:hover
 {
-
+	background-color:#cdcdcd;
 }
