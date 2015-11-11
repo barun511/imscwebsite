@@ -21,24 +21,26 @@ body
 	padding:0px;
 }
 .nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: 0px;
+	margin-right: -21px; /* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: 0px;
 }
 .nav-sidebar > li > a {
-  padding-right: 20px;
-  padding-left: 20px;
+	background-color: #ededed;
+	padding-right: 20px;
+	padding-left: 20px;
+	color:black;
 }
 .nav-sidebar >li > a:hover
 {
-	background-color:#2f4f4f;
+	background-color:#adadad; /* Change this to change the color of the hover over*/
 
 }
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
-  color: #fff; /* Change this to change color of text in active sidebar element */
-  background-color: #428bca; /* Change this to change the color of the highlighted background*/
+	color:black; /* Change this to change color of text in active sidebar element */
+	background-color: #adadad; /* Change this to change the color of the highlighted background*/
 }
 .td
 {

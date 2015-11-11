@@ -8,6 +8,10 @@ This makes implementing the whole shebang a lot easier.
 
 #Marks
 
+The marks pages:
+
+semyear_marks.html
+
 Quiz 1/2/3:
 
 subjcode_quizXmarkspageY.jpg
@@ -20,9 +24,19 @@ Mid Semesters:
 
 subjcode_midsemmarkspageY.jpg
 
+#StudentNotes
+
+subjcode_studentnotes.html
+
+And then
+subjcode_studentname.pdf
 
 #Question Papers:
 
 For 2k14 pov
 
 subjcode_2k14qpaper.html
+
+qpaper not qpapers
+
+Note.
