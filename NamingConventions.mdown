@@ -33,10 +33,10 @@ subjcode_studentname.pdf
 
 #Question Papers:
 
-For 2k14 pov
+subjectcodepaperbatch.jpg
 
-subjcode_2k14qpaper.html
+Example
 
-qpaper not qpapers
+cs3101endsem2k14.jpg
 
 Note.
